@@ -1,3 +1,24 @@
 body {
+  /*background-color: #000000;*/
   font-family: Arial, sans-serif;
+}
+
+.sporty{
+  color: red;
+}
+
+.casual{
+  color: #e04553
+}
+
+.card{
+  background-color:rgba(0,0,0,0.5);
+  background: hsl(0, 100%, 50%);
+  background-color: hsla(0, 100%, 50%,0.2);
+}
+
+.card2{
+  background-color: #000;
+  color: #fff;
+  opacity: 0.2;
 }
