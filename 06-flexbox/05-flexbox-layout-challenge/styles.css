@@ -24,3 +24,51 @@ a:hover {
 h2 {
   margin-bottom: 20px;
 }
+
+header{
+  padding: 40px;
+  background-color: coral;
+}
+
+.main-menu{
+  display: flex;
+  background-color: #efefef;
+}
+
+.main-menu li{
+  padding: 20px 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+main{
+  display: flex;
+  gap: 70px;
+  padding: 40px;
+}
+
+.main section{
+  flex: 1;
+}
+
+.main aside{
+  width: 300px;
+}
+
+p{
+  line-height:2;
+}
+
+h3{
+  background-color: coral;
+  color: white;
+  padding: 10px;
+}
+
+aside ul li{
+  font-weight: bold;
+  color: #ccc;
+  padding: 10px;
+  background-color: #efefef;
+  border-bottom: 1px solid grey;
+}
