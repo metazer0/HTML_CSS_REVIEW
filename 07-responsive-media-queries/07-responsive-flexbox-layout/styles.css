@@ -66,3 +66,38 @@ h2 {
   background: #f4f4f4;
   border-bottom: 1px solid #ccc;
 }
+
+@media(max-width:496px){
+
+  .header{
+    padding: 20px;
+  }
+
+  h1{
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .main-menu{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-menu a{
+    font-size: 1rem;
+  }
+
+  .main-menu li{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 6px;
+    text-align: center;
+  }
+
+  .main{
+    flex-direction: column;
+  }
+
+  .main aside{
+    width: 100%;
+  }
+}
